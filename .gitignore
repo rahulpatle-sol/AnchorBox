@@ -1,0 +1,34 @@
+# Anchor
+target/
+.anchor/
+Cargo.lock
+
+# Node dependencies
+node_modules/
+yarn.lock
+package-lock.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+
+# Build artifacts
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+**/target
+**/.anchor
+**/node_modules
+**/dist
